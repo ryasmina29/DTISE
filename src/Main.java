@@ -1,10 +1,10 @@
-package Day1;
-
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
 public class Main {
     public static void main(String[] args) {
+        //DAY 1
+
         //Exercise 1
         System.out.println("Exercise 1");
         int width = 3, length = 5;
@@ -34,10 +34,51 @@ public class Main {
         System.out.println("Exercise 5");
         String name = "John Doe";
         System.out.println("Initials: " + getInitials(name));
+
+
+        //DAY 2
+        //Exercise 1
+        System.out.println("Exercise 1");
+        double tempF = 50;
+        System.out.println("Temperature in Celcius: " + getFtoC(tempF));
+
+        //Exercise 2
+        System.out.println("Exercise 2");
+        double NumCM = 100000;
+        System.out.println("Distance in KM: " + getCMtoKM(NumCM));
     }
 
     public static String getInitials(String name) {
         int lastname = name.lastIndexOf(' ');
         return name.substring(0,1) + name.substring(lastname + 1, lastname + 2);
     }
+    public static double getFtoC(double F) {
+        return (5.0 / 9.0) * (F - 32);
+    }
+
+    public static double getCMtoKM(double C) {
+        return (C/100000);
+    }
+
 }
+
+
+
+
+
+/* Test
+
+public void main() {
+}
+
+public class Main {
+    public static void main(String[] args) {
+        //Exercise 1
+        System.out.println("Exercise 1");
+        double tempF = 50;
+        System.out.println("Temperature in Celcius: " + getFtoC(tempF));
+    }
+}
+    public static double getFtoC(double F) {
+        return (5.0 / 9.0) * (F - 32);
+    } */
