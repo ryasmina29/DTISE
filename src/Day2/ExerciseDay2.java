@@ -24,10 +24,9 @@ public class ExerciseDay2 {
         System.out.println("Input amount: ");
         double n = sc.nextDouble();
         boolean isOdd = false;
-        if (n % 2 == 0){
+        if (n % 2 == 0) {
             System.out.printf("Rp%,.2f", n);
-        }
-        else {
+        } else {
             System.out.println(isOdd);
         }
         System.out.println();
@@ -35,8 +34,7 @@ public class ExerciseDay2 {
         //Exercise 4
         System.out.println("Exercise 4");
         String word = "Hello world";
-        String newword = word.replace(word.substring(1,4), "");
-        System.out.println(newword);
+        System.out.println(word.replace(word.substring(1, 4), ""));
         System.out.println();
 
         //Exercise 5
@@ -46,9 +44,18 @@ public class ExerciseDay2 {
         System.out.println(isPalindrome(wordPal));
 
     }
+
     public static boolean isPalindrome(String x) {
-        StringBuilder sb = new StringBuilder(x);
-        sb.reverse();
-        return x.equals(sb.toString());
+        int n = x.length();
+        for (int i = 0; i < n; i++) {
+            if (x.charAt(i) != x.charAt(n - 1 - i)) {
+                return false;
+            }
+        }
+        return true;
     }
+
+        /* StringBuilder sb = new StringBuilder(x);
+        sb.reverse();
+        return x.equals(sb.toString());*/
 }

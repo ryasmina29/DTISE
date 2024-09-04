@@ -1,10 +1,7 @@
-import Day1.ExerciseDay1;
-import Day2.ExerciseDay2;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
+import Day3.*;
 
 public class Main {
     public static void main(String[] args) {
-        ExerciseDay2.runExerciseD2();
+        D3E10.RunD3E10();
     }
 }
