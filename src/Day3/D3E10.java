@@ -1,8 +1,5 @@
 package Day3;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 //Second smallest
 public class D3E10 {
     public static void RunD3E10() {
