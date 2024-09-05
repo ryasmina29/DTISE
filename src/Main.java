@@ -1,7 +1,8 @@
 import Day3.*;
+import Day4.*;
 
 public class Main {
     public static void main(String[] args) {
-        D3E10.RunD3E10();
+        D4E3.RunD4E3();
     }
 }
