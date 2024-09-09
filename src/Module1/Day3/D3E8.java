@@ -1,6 +1,5 @@
-package Day3;
+package Module1.Day3;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 //Sort number

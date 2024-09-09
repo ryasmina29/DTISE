@@ -1,4 +1,4 @@
-package Day3;
+package Module1.Day3;
 //Find the largest number
 public class D3E3 {
     public static void RunD3E3() {

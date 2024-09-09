@@ -1,4 +1,4 @@
-package Day3;
+package Module1.Day3;
 //Sum a bunch of numbers
 public class D3E1 {
     public static void RunD3E1() {

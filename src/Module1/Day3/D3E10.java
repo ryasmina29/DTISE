@@ -1,4 +1,4 @@
-package Day3;
+package Module1.Day3;
 
 //Second smallest
 public class D3E10 {

@@ -1,6 +1,5 @@
-package Day1;
+package Module1.Day1;
 
-import java.awt.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Day3;
+package Module1.Day3;
 //Determine prime number
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Day3;
+package Module1.Day3;
 //Fibonacci
 
 import java.util.Scanner;
