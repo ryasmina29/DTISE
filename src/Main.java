@@ -1,9 +1,8 @@
-import Module1.Day4.*;
-import Module1.Day5.*;
-
-import java.awt.*;
+import Module1.Day7.*;
 
 public class Main {
-    public static void main(String[] args) { D5E5.RunD5E5();
+    public static void main(String[] args) {
+        CalculateAverage calculateAverage = new CalculateAverage();
+        calculateAverage.run();
     }
 }
