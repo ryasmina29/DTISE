@@ -1,8 +1,9 @@
 import Module1.Day7.*;
+import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) {
-        CalculateAverage calculateAverage = new CalculateAverage();
-        calculateAverage.run();
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
     }
 }
